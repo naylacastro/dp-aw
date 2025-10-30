@@ -1,0 +1,180 @@
+/* ====== Estilo geral ====== */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+/* ====== Cabeçalho ====== */
+header {
+  background-color: #2e6a56;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Main ====== */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ====== Seções de Apresentação e Sobre ====== */
+.apresentacao, .sobre {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.apresentacao h2, .sobre h2 {
+  color: #2e6a56;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.botao, .voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #2e6a56;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover, .voltar:hover {
+  background-color: #245443;
+}
+
+/* ====== Valores e Cards ====== */
+.valores {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  color: #2e6a56;
+  margin-bottom: 10px;
+}
+
+/* ====== Lista de Cursos ====== */
+.lista-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.curso {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* ====== Formulário de Contato ====== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #2e6a56;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #245443;
+}
+
+.info-contato {
+  margin-top: 30px;
+  background-color: #f2f5f7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ====== Imagens ====== */
+.imagem-sobre {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+/* ====== Rodapé ====== */
+footer {
+  background-color: #2e6a56;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
