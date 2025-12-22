@@ -1,0 +1,41 @@
+/* MOBILE */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin: auto;
+}
+
+.card img {
+  width: 100%;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row; 
+  }
+
+  .card img {
+    width: 200px;
+  }
+}
