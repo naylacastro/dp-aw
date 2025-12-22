@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Formulário de Cadastro</h1>
+    <p>Preencha os campos abaixo para criar seu cadastro.</p>
+  </header>
+
+  <main>
+    <form>
+      <label for="nome">Nome completo:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade" name="cidade">
+
+      <label for="estado">Estado:</label>
+      <select id="estado" name="estado">
+        <option value="">Selecione</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="MG">MG</option>
+        <option value="BA">BA</option>
+        <option value="RS">RS</option>
+      </select>
+
+      <div class="opcoes">
+        <p>Gênero:</p>
+        <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+        <label><input type="radio" name="genero" value="outro"> Outro</label>
+      </div>
+
+      <div class="opcoes">
+        <p>Interesses:</p>
+        <label><input type="checkbox" name="interesse" value="tecnologia"> Tecnologia</label>
+        <label><input type="checkbox" name="interesse" value="arte"> Arte</label>
+        <label><input type="checkbox" name="interesse" value="esportes"> Esportes</label>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>©2025</p>
+  </footer>
+
+</body>
+</html>

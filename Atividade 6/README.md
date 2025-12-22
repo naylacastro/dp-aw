@@ -1,0 +1,1 @@
+Essa página foi feita para treinar links internos, aqueles que levam para partes diferentes da mesma página,ela tem três seções início,sobre e contato, cada uma dentro de uma caixinha para deixar tudo organizado.
